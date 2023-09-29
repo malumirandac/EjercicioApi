@@ -11,4 +11,8 @@ public interface TareaService {
 
     Tarea guardarTarea(Tarea nuevaTarea);
 
+    Tarea editarTareaPorId(Long id, Tarea tareaActualizado);
+
+    void borrarTarea(Long id);
+
 }
